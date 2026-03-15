@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Projects | Nandin</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-zinc-100">
+
+<nav class="max-w-5xl mx-auto flex justify-between py-6 px-4">
+<h1 class="font-semibold">Nandin</h1>
+
+<div class="space-x-6 text-sm">
+<a href="index.html">Home</a>
+<a href="projects.html" class="font-semibold">Projects</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<section class="max-w-5xl mx-auto px-4 mt-12">
+
+<h2 class="text-3xl font-bold mb-6">Projects</h2>
+
+<div class="grid md:grid-cols-2 gap-6">
+
+<!-- Electricity Network Project -->
+
+<div class="bg-white rounded-xl shadow p-6">
+
+<h3 class="font-semibold text-lg">
+Electricity Network Sensitivity Analysis Tool
+</h3>
+
+<p class="text-zinc-600 text-sm mt-2">
+Backend development and testing for a data-driven system that helps electricity
+network operators analyze power quality and congestion in lower-level grids.
+Developed during my EngD traineeship in collaboration with company CGI.
+</p>
+
+<div class="mt-4 text-xs text-zinc-500">
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">Python</span>
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">FastAPI</span>
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">Pytest</span>
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">Docker</span>
+<span class="bg-zinc-200 px-2 py-1 rounded">REST API</span>
+</div>
+
+<p class="text-sm mt-4">
+<strong>Role:</strong> Backend Developer & Test Manager
+</p>
+
+<ul class="text-sm text-zinc-600 mt-2 list-disc list-inside">
+<li>Built REST APIs using FastAPI for dataset processing</li>
+<li>Generated datasets to support machine learning validation</li>
+<li>Implemented automated testing using Pytest</li>
+<li>Collaborated with developers and data scientists</li>
+</ul>
+
+<img 
+src="images/lectricity-architecture.png"
+alt="Electricity Network Sensitivity Analysis Tool Architecture"
+class="rounded-lg mt-6 border">
+
+<p class="text-xs text-zinc-500 mt-2">
+System architecture showing data generation, machine learning pipeline,
+API services, and Grafana-based visualization.
+</p>
+
+</div>
+
+<!-- SND@LHC Project -->
+
+<div class="bg-white rounded-xl shadow p-6">
+
+<h3 class="font-semibold text-lg">
+SND@LHC Experiment Data Platform
+</h3>
+
+<p class="text-zinc-600 text-sm mt-2">
+Developed a full-stack data platform for scientists working with
+experimental data from the SND@LHC detector at CERN. The goal was to
+create a user-friendly interface that enables researchers to access,
+explore, and analyze Large Hadron Collider experiment data efficiently.
+The system was built using the FARM stack.
+</p>
+
+<div class="mt-4 text-xs text-zinc-500">
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">FARM Stack</span>
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">FastAPI</span>
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">Angular</span>
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">Redis</span>
+<span class="bg-zinc-200 px-2 py-1 rounded">MongoDB</span>
+</div>
+
+<p class="text-sm mt-4">
+<strong>Role:</strong> Software Designer & Backend Developer
+</p>
+
+<ul class="text-sm text-zinc-600 mt-2 list-disc list-inside">
+<li>Designed the backend architecture using FastAPI</li>
+<li>Implemented REST APIs to enable interaction with LHC experiment datasets</li>
+<li>Integrated MongoDB for efficient data storage and retrieval</li>
+<li>Led technical design decisions</li>
+</ul>
+
+<img 
+src="images/snd.png"
+alt="SND@LHC Data Platform Interface"
+class="rounded-lg mt-6 border">
+
+<p class="text-xs text-zinc-500 mt-2">
+Full-stack platform built with the FARM stack to enable researchers to
+interact with data from the SND@LHC experiment at CERN.
+</p>
+
+</div>
+
+
+<!-- Urban Air Mobility Project -->
+
+<div class="bg-white rounded-xl shadow p-6">
+
+<h3 class="font-semibold text-lg">
+Urban Air Mobility (UAM) Mission Planning
+</h3>
+
+<p class="text-zinc-600 text-sm mt-2">
+Developed a 3D simulation environment to train autonomous quadcopters
+using reinforcement learning. The goal was to enable drones to navigate
+urban environments autonomously while avoiding collisions and finding
+optimal flight trajectories. The project was conducted in collaboration
+with Airbus during an 8-week development cycle.
+</p>
+
+<div class="mt-4 text-xs text-zinc-500">
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">Unity</span>
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">C#</span>
+<span class="bg-zinc-200 px-2 py-1 rounded mr-2">Reinforcement Learning</span>
+<span class="bg-zinc-200 px-2 py-1 rounded">3D Simulation</span>
+</div>
+
+<p class="text-sm mt-4">
+<strong>Role:</strong> Software Developer
+</p>
+
+<ul class="text-sm text-zinc-600 mt-2 list-disc list-inside">
+<li>Implemented reinforcement learning agents for navigation</li>
+<li>Developed flight control logic using C# within Unity</li>
+<li>Optimized algorithms to improve trajectory planning and collision avoidance</li>
+</ul>
+
+<img 
+src="images/uam.png"
+alt="Urban Air Mobility Simulation Environment"
+class="rounded-lg mt-6 border">
+
+<p class="text-xs text-zinc-500 mt-2">
+Unity-based simulation environment used to train reinforcement learning
+agents for autonomous quadcopter flight.
+</p>
+
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
